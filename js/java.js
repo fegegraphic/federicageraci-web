@@ -1,5 +1,5 @@
 $ .scrollify ( {
-    section : ".box" ,
+    section : ".example-classname" ,
     sectionName : "section-name" ,
     interstitialSection : "" ,
     easing : "easeOutExpo" ,

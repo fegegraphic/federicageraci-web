@@ -312,7 +312,7 @@ footer {
 
 
 
-@media (max-width: 768px) {
+@media (min-width: 568px) and (max-width: 768px) {
 
   .navbar-brand {
     position:relative;
@@ -446,6 +446,20 @@ footer {
     font-size: 15px;
   }
 
+  .navbar-nav {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-size: 30px;
+  color: #77828C;
+  }
+
+  .dropdown-item {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 300;
+    font-size: 25px;
+    color: #F0F6F9;
+  }
+
 .navbar-brand {
   position:relative;
   display:flex;
@@ -463,14 +477,14 @@ footer {
 .name {
   font-family: 'Amatic SC', cursive;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 25px;
   color: #77828C;
   display:flex;
   position:absolute;
   z-index: 1.5;
   padding-left: 50px;
   margin-left:20px;
-  padding-top:12px;
+  padding-top:20px;
 }
 
 .carousel-cap {
@@ -534,6 +548,7 @@ footer {
   width:100%;
   box-sizing: 350px;
   margin-top:30px;
+  margin-bottom:20px;
 }
 .overlay {
   display:none;
