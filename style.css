@@ -446,10 +446,6 @@ footer {
     font-size: 15px;
   }
 
-  .left {
-    text-align: left;
-  }
-
   .navbar-nav {
   font-family: 'Amatic SC', cursive;
   font-weight: 700;
@@ -533,6 +529,11 @@ footer {
 
 #carouselExampleCaptions-2 {
   display:none;
+}
+
+.disney-cap {
+  margin:10px;
+  text-align:left;
 }
 
 .modal-title {
